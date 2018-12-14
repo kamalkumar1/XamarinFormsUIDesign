@@ -662,11 +662,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/kamalkumar/Projects/GridSample/GridSample.iOS/GridSample.iOS.csproj",
+      "projectUniqueName": "/Users/kamalkumar/Documents/GitOffice/XamarinFormsUIDesign/GridSample/GridSample.iOS/GridSample.iOS.csproj",
       "projectName": "GridSample.iOS",
-      "projectPath": "/Users/kamalkumar/Projects/GridSample/GridSample.iOS/GridSample.iOS.csproj",
+      "projectPath": "/Users/kamalkumar/Documents/GitOffice/XamarinFormsUIDesign/GridSample/GridSample.iOS/GridSample.iOS.csproj",
       "packagesPath": "/Users/kamalkumar/.nuget/packages/",
-      "outputPath": "/Users/kamalkumar/Projects/GridSample/GridSample.iOS/obj",
+      "outputPath": "/Users/kamalkumar/Documents/GitOffice/XamarinFormsUIDesign/GridSample/GridSample.iOS/obj",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/kamalkumar/.config/NuGet/NuGet.Config"

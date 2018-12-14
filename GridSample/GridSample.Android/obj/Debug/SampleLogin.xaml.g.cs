@@ -13,7 +13,8 @@
 namespace GridSample {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("/Users/kamalkumar/Projects/GridSample/GridSample/SampleLogin.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("/Users/kamalkumar/Documents/GitOffice/XamarinFormsUIDesign/GridSample/GridSample/" +
+        "SampleLogin.xaml")]
     public partial class SampleLogin : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]

@@ -761,11 +761,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/kamalkumar/Projects/GridSample/GridSample.Android/GridSample.Android.csproj",
+      "projectUniqueName": "/Users/kamalkumar/Documents/GitOffice/XamarinFormsUIDesign/GridSample/GridSample.Android/GridSample.Android.csproj",
       "projectName": "GridSample.Android",
-      "projectPath": "/Users/kamalkumar/Projects/GridSample/GridSample.Android/GridSample.Android.csproj",
+      "projectPath": "/Users/kamalkumar/Documents/GitOffice/XamarinFormsUIDesign/GridSample/GridSample.Android/GridSample.Android.csproj",
       "packagesPath": "/Users/kamalkumar/.nuget/packages/",
-      "outputPath": "/Users/kamalkumar/Projects/GridSample/GridSample.Android/obj",
+      "outputPath": "/Users/kamalkumar/Documents/GitOffice/XamarinFormsUIDesign/GridSample/GridSample.Android/obj",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/kamalkumar/.config/NuGet/NuGet.Config"

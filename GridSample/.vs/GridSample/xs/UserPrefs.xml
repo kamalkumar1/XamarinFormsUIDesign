@@ -1,14 +1,16 @@
 ﻿<Properties StartupConfiguration="{602CD5C3-5397-4420-B042-3364F49674A9}|Default">
-  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.Workbench ActiveDocument="GridSample/Absolutelayout.xaml">
+    <Files>
+      <File FileName="GridSample/Absolutelayout.xaml" Line="6" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.GridSample.Android AndroidDesignerPreferredTheme="Theme.DeviceDefault.NoActionBar.Fullscreen" PreferredExecutionTarget="Android.ce0317138029d0c60c" />
   <MonoDevelop.Ide.ItemProperties.GridSample FirstBuild="True" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.GridSample.iOS automaticSigning="False" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.8594f13741ae8fbe16a357e855825be49d268aa6" />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhone" />
+  <MonoDevelop.Ide.ItemProperties.GridSample.iOS automaticSigning="False" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.48CE04BB-B911-49FE-9496-4A169A593CEF" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <RunToCursorBreakpoint file="/Users/kamalkumar/Projects/GridSample/GridSample/SampleLogin.xaml" relfile="GridSample/SampleLogin.xaml" line="14" column="17" />
-    </BreakpointStore>
+    <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
 </Properties>
