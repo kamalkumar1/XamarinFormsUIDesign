@@ -12,7 +12,8 @@ namespace GridSample
             InitializeComponent();
 
             // MainPage = new MainPage();
-            MainPage = new SampleLogin();
+           // MainPage = new SampleLogin();
+            MainPage = new Absolutelayout1();
         }
 
         protected override void OnStart()
