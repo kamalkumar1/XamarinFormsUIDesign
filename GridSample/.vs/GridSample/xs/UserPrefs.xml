@@ -1,9 +1,5 @@
 ﻿<Properties StartupConfiguration="{602CD5C3-5397-4420-B042-3364F49674A9}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="GridSample/Absolutelayout.xaml">
-    <Files>
-      <File FileName="GridSample/Absolutelayout.xaml" Line="6" Column="1" />
-    </Files>
-  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench />
   <MonoDevelop.Ide.ItemProperties.GridSample.Android AndroidDesignerPreferredTheme="Theme.DeviceDefault.NoActionBar.Fullscreen" PreferredExecutionTarget="Android.ce0317138029d0c60c" />
   <MonoDevelop.Ide.ItemProperties.GridSample FirstBuild="True" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
