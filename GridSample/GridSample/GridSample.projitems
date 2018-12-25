@@ -23,6 +23,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)SampleRelativeLayout.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="$(MSBuildThisFileDirectory)App.xaml.cs">
@@ -39,6 +43,9 @@
     </Compile>
     <Compile Include="$(MSBuildThisFileDirectory)Absolutelayout1.xaml.cs">
       <DependentUpon>Absolutelayout1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)SampleRelativeLayout.xaml.cs">
+      <DependentUpon>SampleRelativeLayout.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
 </Project>

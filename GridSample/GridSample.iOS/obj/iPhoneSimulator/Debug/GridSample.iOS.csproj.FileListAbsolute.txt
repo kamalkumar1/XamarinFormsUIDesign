@@ -169,9 +169,10 @@
 /Users/kamal/Documents/Git/XamarinFormsUIDesign/GridSample/GridSample.iOS/obj/iPhoneSimulator/Debug/XamlC.stamp
 /Users/kamal/Documents/Git/XamarinFormsUIDesign/GridSample/GridSample.iOS/obj/iPhoneSimulator/Debug/GridSample.iOS.exe
 /Users/kamal/Documents/Git/XamarinFormsUIDesign/GridSample/GridSample.iOS/obj/iPhoneSimulator/Debug/GridSample.iOS.pdb
-/Users/kamal/Documents/Git/XamarinFormsUIDesign/GridSample/GridSample.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.5-11.3/ibtool/_BundleResourceWithLogicalName.items
-/Users/kamal/Documents/Git/XamarinFormsUIDesign/GridSample/GridSample.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.5-11.3/actool/_PartialAppManifest.items
-/Users/kamal/Documents/Git/XamarinFormsUIDesign/GridSample/GridSample.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.5-11.3/actool/_BundleResourceWithLogicalName.items
-/Users/kamal/Documents/Git/XamarinFormsUIDesign/GridSample/GridSample.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.5-11.3/coremlc/_PartialAppManifest.items
-/Users/kamal/Documents/Git/XamarinFormsUIDesign/GridSample/GridSample.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.5-11.3/coremlc/_BundleResourceWithLogicalName.items
-/Users/kamal/Documents/Git/XamarinFormsUIDesign/GridSample/GridSample.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.5-11.3/optimized/
+/Users/kamal/Documents/Git/XamarinFormsUIDesign/GridSample/GridSample.iOS/obj/iPhoneSimulator/Debug/SampleRelativeLayout.xaml.g.cs
+/Users/kamal/Documents/Git/XamarinFormsUIDesign/GridSample/GridSample.iOS/obj/iPhoneSimulator/Debug/device-builds/ipad7.4-11.3/ibtool/_BundleResourceWithLogicalName.items
+/Users/kamal/Documents/Git/XamarinFormsUIDesign/GridSample/GridSample.iOS/obj/iPhoneSimulator/Debug/device-builds/ipad7.4-11.3/actool/_PartialAppManifest.items
+/Users/kamal/Documents/Git/XamarinFormsUIDesign/GridSample/GridSample.iOS/obj/iPhoneSimulator/Debug/device-builds/ipad7.4-11.3/actool/_BundleResourceWithLogicalName.items
+/Users/kamal/Documents/Git/XamarinFormsUIDesign/GridSample/GridSample.iOS/obj/iPhoneSimulator/Debug/device-builds/ipad7.4-11.3/coremlc/_PartialAppManifest.items
+/Users/kamal/Documents/Git/XamarinFormsUIDesign/GridSample/GridSample.iOS/obj/iPhoneSimulator/Debug/device-builds/ipad7.4-11.3/coremlc/_BundleResourceWithLogicalName.items
+/Users/kamal/Documents/Git/XamarinFormsUIDesign/GridSample/GridSample.iOS/obj/iPhoneSimulator/Debug/device-builds/ipad7.4-11.3/optimized/
