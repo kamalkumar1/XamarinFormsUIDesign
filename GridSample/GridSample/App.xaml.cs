@@ -14,7 +14,8 @@ namespace GridSample
             // MainPage = new MainPage();
             // MainPage = new SampleLogin();
             // MainPage = new Absolutelayout1();
-            MainPage = new SampleRelativeLayout();
+            //MainPage = new SampleRelativeLayout();
+            MainPage = new Formsimage();
         }
 
         protected override void OnStart()

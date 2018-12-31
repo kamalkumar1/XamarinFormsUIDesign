@@ -27,6 +27,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Formsimage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="$(MSBuildThisFileDirectory)App.xaml.cs">
@@ -46,6 +50,9 @@
     </Compile>
     <Compile Include="$(MSBuildThisFileDirectory)SampleRelativeLayout.xaml.cs">
       <DependentUpon>SampleRelativeLayout.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Formsimage.xaml.cs">
+      <DependentUpon>Formsimage.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
 </Project>
