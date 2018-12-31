@@ -657,19 +657,19 @@
     ]
   },
   "packageFolders": {
-    "/Users/kamal/.nuget/packages/": {}
+    "/Users/kamalkumar/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/kamal/Documents/Git/XamarinFormsUIDesign/GridSample/GridSample.iOS/GridSample.iOS.csproj",
+      "projectUniqueName": "/Users/kamalkumar/Documents/GitOffice/XamarinFormsUIDesign/GridSample/GridSample.iOS/GridSample.iOS.csproj",
       "projectName": "GridSample.iOS",
-      "projectPath": "/Users/kamal/Documents/Git/XamarinFormsUIDesign/GridSample/GridSample.iOS/GridSample.iOS.csproj",
-      "packagesPath": "/Users/kamal/.nuget/packages/",
-      "outputPath": "/Users/kamal/Documents/Git/XamarinFormsUIDesign/GridSample/GridSample.iOS/obj",
+      "projectPath": "/Users/kamalkumar/Documents/GitOffice/XamarinFormsUIDesign/GridSample/GridSample.iOS/GridSample.iOS.csproj",
+      "packagesPath": "/Users/kamalkumar/.nuget/packages/",
+      "outputPath": "/Users/kamalkumar/Documents/GitOffice/XamarinFormsUIDesign/GridSample/GridSample.iOS/obj",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/kamal/.config/NuGet/NuGet.Config"
+        "/Users/kamalkumar/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "xamarinios10"
@@ -688,7 +688,7 @@
         "dependencies": {
           "Xamarin.Forms": {
             "target": "Package",
-            "version": "3.3.0.967583"
+            "version": "[3.3.0.967583, )"
           }
         }
       }

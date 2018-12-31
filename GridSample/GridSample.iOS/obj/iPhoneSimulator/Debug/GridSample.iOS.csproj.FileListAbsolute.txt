@@ -176,3 +176,6 @@
 /Users/kamal/Documents/Git/XamarinFormsUIDesign/GridSample/GridSample.iOS/obj/iPhoneSimulator/Debug/device-builds/ipad7.4-11.3/coremlc/_PartialAppManifest.items
 /Users/kamal/Documents/Git/XamarinFormsUIDesign/GridSample/GridSample.iOS/obj/iPhoneSimulator/Debug/device-builds/ipad7.4-11.3/coremlc/_BundleResourceWithLogicalName.items
 /Users/kamal/Documents/Git/XamarinFormsUIDesign/GridSample/GridSample.iOS/obj/iPhoneSimulator/Debug/device-builds/ipad7.4-11.3/optimized/
+/Users/kamalkumar/Documents/GitOffice/XamarinFormsUIDesign/GridSample/GridSample.iOS/obj/iPhoneSimulator/Debug/SampleRelativeLayout.xaml.g.cs
+/Users/kamalkumar/Documents/GitOffice/XamarinFormsUIDesign/GridSample/GridSample.iOS/obj/iPhoneSimulator/Debug/Formsimage.xaml.g.cs
+/Users/kamalkumar/Documents/GitOffice/XamarinFormsUIDesign/GridSample/GridSample.iOS/obj/iPhoneSimulator/Debug/EmbeddedimageinXaml.xaml.g.cs
