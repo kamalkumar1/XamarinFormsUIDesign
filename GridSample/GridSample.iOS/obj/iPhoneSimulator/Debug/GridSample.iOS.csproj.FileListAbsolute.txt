@@ -179,3 +179,8 @@
 /Users/kamalkumar/Documents/GitOffice/XamarinFormsUIDesign/GridSample/GridSample.iOS/obj/iPhoneSimulator/Debug/SampleRelativeLayout.xaml.g.cs
 /Users/kamalkumar/Documents/GitOffice/XamarinFormsUIDesign/GridSample/GridSample.iOS/obj/iPhoneSimulator/Debug/Formsimage.xaml.g.cs
 /Users/kamalkumar/Documents/GitOffice/XamarinFormsUIDesign/GridSample/GridSample.iOS/obj/iPhoneSimulator/Debug/EmbeddedimageinXaml.xaml.g.cs
+/Users/kamalkumar/Documents/GitOffice/XamarinFormsUIDesign/GridSample/GridSample.iOS/obj/iPhoneSimulator/Debug/BasicList.xaml.g.cs
+/Users/kamalkumar/Documents/GitOffice/XamarinFormsUIDesign/GridSample/GridSample.iOS/obj/iPhoneSimulator/Debug/BasicList2.xaml.g.cs
+/Users/kamalkumar/Documents/GitOffice/XamarinFormsUIDesign/GridSample/GridSample.iOS/obj/iPhoneSimulator/Debug/CustomList.xaml.g.cs
+/Users/kamalkumar/Documents/GitOffice/XamarinFormsUIDesign/GridSample/GridSample.iOS/obj/iPhoneSimulator/Debug/GroupingList.xaml.g.cs
+/Users/kamalkumar/Documents/GitOffice/XamarinFormsUIDesign/GridSample/GridSample.iOS/obj/iPhoneSimulator/Debug/SelectionList.xaml.g.cs

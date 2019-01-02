@@ -83,6 +83,13 @@
 /Users/kamalkumar/Documents/GitOffice/XamarinFormsUIDesign/GridSample/GridSample.Android/obj/Debug/R.cs.flag
 /Users/kamalkumar/Documents/GitOffice/XamarinFormsUIDesign/GridSample/GridSample.Android/obj/Debug/R.txt
 /Users/kamalkumar/Documents/GitOffice/XamarinFormsUIDesign/GridSample/GridSample.Android/obj/Debug/uploadflags.txt
+/Users/kamalkumar/Documents/GitOffice/XamarinFormsUIDesign/GridSample/GridSample.Android/obj/Debug/SampleRelativeLayout.xaml.g.cs
+/Users/kamalkumar/Documents/GitOffice/XamarinFormsUIDesign/GridSample/GridSample.Android/obj/Debug/Formsimage.xaml.g.cs
+/Users/kamalkumar/Documents/GitOffice/XamarinFormsUIDesign/GridSample/GridSample.Android/obj/Debug/EmbeddedimageinXaml.xaml.g.cs
+/Users/kamalkumar/Documents/GitOffice/XamarinFormsUIDesign/GridSample/GridSample.Android/obj/Debug/BasicList.xaml.g.cs
+/Users/kamalkumar/Documents/GitOffice/XamarinFormsUIDesign/GridSample/GridSample.Android/obj/Debug/BasicList2.xaml.g.cs
+/Users/kamalkumar/Documents/GitOffice/XamarinFormsUIDesign/GridSample/GridSample.Android/obj/Debug/CustomList.xaml.g.cs
+/Users/kamalkumar/Documents/GitOffice/XamarinFormsUIDesign/GridSample/GridSample.Android/bin/Debug/Mono.Android.pdb
 /Users/kamalkumar/Documents/GitOffice/XamarinFormsUIDesign/GridSample/GridSample.Android/obj/Debug/linksrc/GridSample.Android.pdb
 /Users/kamalkumar/Documents/GitOffice/XamarinFormsUIDesign/GridSample/GridSample.Android/obj/Debug/linksrc/FormsViewGroup.pdb
 /Users/kamalkumar/Documents/GitOffice/XamarinFormsUIDesign/GridSample/GridSample.Android/obj/Debug/linksrc/Mono.Android.pdb

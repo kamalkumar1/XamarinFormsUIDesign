@@ -15,7 +15,13 @@ namespace GridSample
             // MainPage = new SampleLogin();
             // MainPage = new Absolutelayout1();
             //MainPage = new SampleRelativeLayout();
-            MainPage = new Formsimage();
+            //MainPage = new Formsimage();
+            //MainPage = new EmbeddedimageinXaml();
+            //MainPage = new BasicList();
+            //MainPage = new BasicList2();
+            //MainPage = new CustomList();
+            //MainPage = new GroupingList();
+            MainPage = new SelectionList();
         }
 
         protected override void OnStart()

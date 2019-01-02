@@ -6987,14 +6987,14 @@ exception_handling:;
 	-(BOOL) application:(UIApplication *)p0 didFinishLaunchingWithOptions:(NSDictionary *)p1
 	{
 		static MonoMethod *managed_method = NULL;
-		return native_to_managed_trampoline_10 (self, _cmd, &managed_method, p0, p1, 0xF00);
+		return native_to_managed_trampoline_10 (self, _cmd, &managed_method, p0, p1, 0x4900);
 	}
 
 	-(id) init
 	{
 		static MonoMethod *managed_method = NULL;
 		bool call_super = false;
-		id rv = native_to_managed_trampoline_1 (self, _cmd, &managed_method, &call_super, 0x1000);
+		id rv = native_to_managed_trampoline_1 (self, _cmd, &managed_method, &call_super, 0x4A00);
 		if (call_super && rv) {
 			struct objc_super super = {  rv, [Xamarin_Forms_Platform_iOS_FormsApplicationDelegate class] };
 			rv = ((id (*)(objc_super*, SEL)) objc_msgSendSuper) (&super, @selector (init));
@@ -12339,7 +12339,7 @@ exception_handling:;
 		{ NULL, 0x1DE14 /* #144 'NSNotificationCenter' => 'Foundation.NSNotificationCenter, Xamarin.iOS' */ },
 		{ NULL, 0x1E514 /* #145 'NSSet' => 'Foundation.NSSet, Xamarin.iOS' */ },
 		{ NULL, 0x1124 /* #146 'Xamarin_Forms_Platform_iOS_FormsApplicationDelegate' => 'Xamarin.Forms.Platform.iOS.FormsApplicationDelegate, Xamarin.Forms.Platform.iOS' */ },
-		{ NULL, 0x600 /* #147 'AppDelegate' => 'GridSample.iOS.AppDelegate, GridSample.iOS' */ },
+		{ NULL, 0x1700 /* #147 'AppDelegate' => 'GridSample.iOS.AppDelegate, GridSample.iOS' */ },
 		{ NULL, 0x4A12 /* #148 'OpenTK_Platform_iPhoneOS_CADisplayLinkTimeSource' => 'OpenTK.Platform.iPhoneOS.CADisplayLinkTimeSource, OpenTK-1.0' */ },
 		{ NULL, 0x4C12 /* #149 'OpenTK_Platform_iPhoneOS_iPhoneOSGameView' => 'OpenTK.Platform.iPhoneOS.iPhoneOSGameView, OpenTK-1.0' */ },
 		{ NULL, 0x7514 /* #150 'GLKit_GLKView__GLKViewDelegate' => 'GLKit.GLKView+_GLKViewDelegate, Xamarin.iOS' */ },
