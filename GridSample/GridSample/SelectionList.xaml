@@ -1,16 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="GridSample.SelectionList">
-     <ListView x:Name="listView" HasUnevenRows="true" ItemSelected="Handle_ItemSelected" ItemTapped="Handle_ItemTapped">
-        <ListView.ItemTemplate>
-            <DataTemplate>
-               <!-- <TextCell Text="{Binding Name}" Detail="{Binding Status}"/>-->
-                <ImageCell Text="{Binding Name}" Detail="{Binding Status}" ImageSource="{Binding ImageUrl}">
-                    <ImageCell.ContextActions>
-                        <MenuItem Text="Call" Clicked="Call_Clicked" CommandParameter="{Binding .}"/>
-                        <MenuItem Text="Delete" Clicked="Delete_Clicked" IsDestructive="true" CommandParameter="{Binding .}"/>
-                    </ImageCell.ContextActions>
-                </ImageCell>
-            </DataTemplate>
-        </ListView.ItemTemplate>
-   </ListView>
+    <StackLayout>
+        <SearchBar x:Name="search" Placeholder="Search.."/>
+        <ListView x:Name="listView" HasUnevenRows="true" ItemSelected="Handle_ItemSelected" ItemTapped="Handle_ItemTapped" IsPullToRefreshEnabled="true" Refreshing="Handle_Refreshing">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <!-- <TextCell Text="{Binding Name}" Detail="{Binding Status}"/>-->
+                    <ImageCell Text="{Binding Name}" Detail="{Binding Status}" ImageSource="{Binding ImageUrl}">
+                        <ImageCell.ContextActions>
+                            <MenuItem Text="Call" Clicked="Call_Clicked" CommandParameter="{Binding .}" />
+                            <MenuItem Text="Delete" Clicked="Delete_Clicked" IsDestructive="true" CommandParameter="{Binding .}" />
+                        </ImageCell.ContextActions>
+                    </ImageCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </StackLayout>
 </ContentPage>

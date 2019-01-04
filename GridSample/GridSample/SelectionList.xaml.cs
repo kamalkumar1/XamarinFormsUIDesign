@@ -11,16 +11,26 @@ namespace GridSample
         public SelectionList()
         {
             InitializeComponent();
+            //_contacts = new ObservableCollection<Contactdata>()
+            //{
+            //   new Contactdata {Name = "Mosh",ImageUrl="http://lorempixel.com/100/100/people/1",Status="Hello"},
+            //   new Contactdata {Name = "John",ImageUrl="http://lorempixel.com/100/100/people/2",Status="Hello,what's app"},
+
+            //};
+            //listView.ItemsSource = GetContacts();
+        }
+        ObservableCollection<Contactdata> GetContacts()
+        {
             _contacts = new ObservableCollection<Contactdata>()
             {
                new Contactdata {Name = "Mosh",ImageUrl="http://lorempixel.com/100/100/people/1",Status="Hello"},
                new Contactdata {Name = "John",ImageUrl="http://lorempixel.com/100/100/people/2",Status="Hello,what's app"},
 
             };
-            listView.ItemsSource = _contacts;
+            return _contacts;
         }
 
-          void Handle_ItemTapped(object sender, Xamarin.Forms.ItemTappedEventArgs e)
+        void Handle_ItemTapped(object sender, Xamarin.Forms.ItemTappedEventArgs e)
         {
             var contacts = e.Item as Contactdata;
             DisplayAlert("Tapped", contacts.Name, "Ok");
@@ -46,6 +56,13 @@ namespace GridSample
 
             var contact = (sender as MenuItem).CommandParameter as Contactdata;
             _contacts.Remove(contact);
+        }
+
+        void Handle_Refreshing(object sender, System.EventArgs e)
+        {
+            listView.ItemsSource = GetContacts();
+
+            listView.EndRefresh();
         }
     }
 }
