@@ -21,7 +21,7 @@ namespace GridSample
             //MainPage = new BasicList2();
             //MainPage = new CustomList();
             //MainPage = new GroupingList();
-            MainPage = new SelectionList();
+            MainPage = new NavigationPage(new StartPage());
         }
 
         protected override void OnStart()

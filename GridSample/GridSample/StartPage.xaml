@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage Title="FORMS CONTROL" BackgroundColor="White" xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="GridSample.StartPage">
+    <StackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="FillAndExpand" Spacing="5" Padding="5">
+        <Button Text="Login Screen" BackgroundColor="Navy" VerticalOptions="Center" TextColor="White" Clicked="Login_Clicked" />
+        <Button Text="LoginScreen with Grid" BackgroundColor="Navy" VerticalOptions="Center" TextColor="White" Clicked="Login_WithGrid_Clicked" />
+        <Button Text="Relative Layout" BackgroundColor="Navy" VerticalOptions="Center" TextColor="White" Clicked="Realtive_Clicked" />
+        <Button Text="Absolute Layout" BackgroundColor="Navy" VerticalOptions="Center" TextColor="White" Clicked="Absolute_Clicked" />
+        <Button Text="Form Image" BackgroundColor="Navy" VerticalOptions="Center" TextColor="White" Clicked="From_Clicked" />
+        <Button Text="Custom List" BackgroundColor="Navy" VerticalOptions="Center" TextColor="White" Clicked="CustomList_Clicked" />
+        <Button Text="Custom Group List" BackgroundColor="Navy" VerticalOptions="Center" TextColor="White" Clicked="CustomList_Group_Clicked" />
+        <Button Text="Search Bar List With Pull To Refresh" BackgroundColor="Navy" VerticalOptions="Center" TextColor="White" Clicked="CustomListsSearch_Clicked" />
+        <Button Text="Master Detail" BackgroundColor="Navy" VerticalOptions="Center" TextColor="White" Clicked="CustomListsSearch_Clicked" />
+    </StackLayout>
+</ContentPage>
