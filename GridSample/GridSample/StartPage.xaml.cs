@@ -44,5 +44,9 @@ namespace GridSample
         {
             await Navigation.PushAsync(new SelectionList());
         }
+        async void Modal_Clicked(object sender, System.EventArgs e)
+        {
+            await Navigation.PushModalAsync(new ModePage());
+        }
     }
 }

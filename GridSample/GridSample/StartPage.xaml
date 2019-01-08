@@ -9,6 +9,7 @@
         <Button Text="Custom List" BackgroundColor="Navy" VerticalOptions="Center" TextColor="White" Clicked="CustomList_Clicked" />
         <Button Text="Custom Group List" BackgroundColor="Navy" VerticalOptions="Center" TextColor="White" Clicked="CustomList_Group_Clicked" />
         <Button Text="Search Bar List With Pull To Refresh" BackgroundColor="Navy" VerticalOptions="Center" TextColor="White" Clicked="CustomListsSearch_Clicked" />
+         <Button Text="Modal PopUp" BackgroundColor="Navy" VerticalOptions="Center" TextColor="White" Clicked="Modal_Clicked" />
         <Button Text="Master Detail" BackgroundColor="Navy" VerticalOptions="Center" TextColor="White" Clicked="CustomListsSearch_Clicked" />
     </StackLayout>
 </ContentPage>
