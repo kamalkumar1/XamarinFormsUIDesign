@@ -48,5 +48,17 @@ namespace GridSample
         {
             await Navigation.PushModalAsync(new ModePage());
         }
+         void Master_Clicked(object sender, System.EventArgs e)
+        {
+            Application.Current.MainPage = new MasterPage();
+        }
+        void Tab_Clicked(object sender, System.EventArgs e)
+        {
+            Application.Current.MainPage = new TabBarPages();
+        }
+        void Car_Clicked(object sender, System.EventArgs e)
+        {
+            Application.Current.MainPage = new CarouselPages();
+        }
     }
 }
