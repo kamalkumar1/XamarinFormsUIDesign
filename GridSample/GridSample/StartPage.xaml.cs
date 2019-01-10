@@ -60,5 +60,13 @@ namespace GridSample
         {
             Application.Current.MainPage = new CarouselPages();
         }
+        void alert_Clicked(object sender, System.EventArgs e)
+        {
+            DisplayAlert("Tittle", "Message", "yes", "No");
+        }
+        void action_Clicked(object sender, System.EventArgs e)
+        {
+            DisplayActionSheet("Tittle", "Cancel", "Destriction", "Button1", "Button2", "Button3");
+        }
     }
 }

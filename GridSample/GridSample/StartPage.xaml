@@ -1,17 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ContentPage Title="FORMS CONTROL" BackgroundColor="White" xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="GridSample.StartPage">
-    <StackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="FillAndExpand" Spacing="2" Padding="2">
-        <Button Text="Login Screen" BackgroundColor="Navy" VerticalOptions="Center" TextColor="White" Clicked="Login_Clicked" />
-        <Button Text="LoginScreen with Grid" BackgroundColor="Navy" VerticalOptions="Center" TextColor="White" Clicked="Login_WithGrid_Clicked" />
-        <Button Text="Relative Layout" BackgroundColor="Navy" VerticalOptions="Center" TextColor="White" Clicked="Realtive_Clicked" />
-        <Button Text="Absolute Layout" BackgroundColor="Navy" VerticalOptions="Center" TextColor="White" Clicked="Absolute_Clicked" />
-        <Button Text="Form Image" BackgroundColor="Navy" VerticalOptions="Center" TextColor="White" Clicked="From_Clicked" />
-        <Button Text="Custom List" BackgroundColor="Navy" VerticalOptions="Center" TextColor="White" Clicked="CustomList_Clicked" />
-        <Button Text="Custom Group List" BackgroundColor="Navy" VerticalOptions="Center" TextColor="White" Clicked="CustomList_Group_Clicked" />
-        <Button Text="Search Bar List With Pull To Refresh" BackgroundColor="Navy" VerticalOptions="Center" TextColor="White" Clicked="CustomListsSearch_Clicked" />
-        <Button Text="Modal PopUp" BackgroundColor="Navy" VerticalOptions="Center" TextColor="White" Clicked="Modal_Clicked" />
-        <Button Text="Master Detail" BackgroundColor="Navy" VerticalOptions="Center" TextColor="White" Clicked="Master_Clicked" />
-        <Button Text="TabBar" BackgroundColor="Navy" VerticalOptions="Center" TextColor="White" Clicked="Tab_Clicked" />
-        <Button Text="CarouselPage" BackgroundColor="Navy" VerticalOptions="Center" TextColor="White" Clicked="Car_Clicked" />
-    </StackLayout>
+   <ContentPage.ToolbarItems  >
+        <ToolbarItem    Icon="baseline_add_black_18" Order="Primary"/>
+   </ContentPage.ToolbarItems>     
+    <ScrollView >
+        <StackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="FillAndExpand" Spacing="2" Padding="2">
+            <Button Text="Login Screen" FontSize="Small"  FontAttributes="Bold" BackgroundColor="Navy" VerticalOptions="Center" TextColor="White" Clicked="Login_Clicked" />
+            <Button Text="DailPad using grid" FontAttributes="Bold" FontSize="Small" BackgroundColor="Navy" VerticalOptions="Center" TextColor="White" Clicked="Login_WithGrid_Clicked" />
+            <Button Text="Relative Layout" FontSize="Small" FontAttributes="Bold" BackgroundColor="Navy" VerticalOptions="Center" TextColor="White" Clicked="Realtive_Clicked" />
+            <Button Text="Absolute Layout" FontSize="Small" FontAttributes="Bold" BackgroundColor="Navy" VerticalOptions="Center" TextColor="White" Clicked="Absolute_Clicked" />
+            <Button Text="Form Image" FontSize="Small" FontAttributes="Bold" BackgroundColor="Navy" VerticalOptions="Center" TextColor="White" Clicked="From_Clicked" />
+            <Button Text="Custom List" FontSize="Small" FontAttributes="Bold" BackgroundColor="Navy" VerticalOptions="Center" TextColor="White" Clicked="CustomList_Clicked" />
+            <Button Text="Custom Group List" FontSize="Small" FontAttributes="Bold" BackgroundColor="Navy" VerticalOptions="Center" TextColor="White" Clicked="CustomList_Group_Clicked" />
+            <Button Text="Search Bar List With Pull To Refresh" FontAttributes="Bold" FontSize="Small" BackgroundColor="Navy" VerticalOptions="Center" TextColor="White" Clicked="CustomListsSearch_Clicked" />
+            <Button Text="Modal PopUp" FontSize="Small" FontAttributes="Bold" BackgroundColor="Navy" VerticalOptions="Center" TextColor="White" Clicked="Modal_Clicked" />
+            <Button Text="Master Detail" FontSize="Small" FontAttributes="Bold" BackgroundColor="Navy" VerticalOptions="Center" TextColor="White" Clicked="Master_Clicked" />
+            <Button Text="TabBar" FontSize="Small" FontAttributes="Bold" BackgroundColor="Navy" VerticalOptions="Center" TextColor="White" Clicked="Tab_Clicked" />
+            <Button Text="CarouselPage" FontSize="Small" FontAttributes="Bold" BackgroundColor="Navy" VerticalOptions="Center" TextColor="White" Clicked="Car_Clicked" />
+            <Button Text="Alert" FontSize="Small" FontAttributes="Bold" VerticalOptions="Center" BackgroundColor="Navy" TextColor="White" Clicked="alert_Clicked" />
+            <Button Text="ActionShett" FontSize="Small" FontAttributes="Bold" VerticalOptions="Center" BackgroundColor="Navy" TextColor="White" Clicked="action_Clicked" />
+        </StackLayout>
+    </ScrollView>
 </ContentPage>
