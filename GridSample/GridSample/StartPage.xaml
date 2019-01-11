@@ -19,6 +19,8 @@
             <Button Text="CarouselPage" FontSize="Small" FontAttributes="Bold" BackgroundColor="Navy" VerticalOptions="Center" TextColor="White" Clicked="Car_Clicked" />
             <Button Text="Alert" FontSize="Small" FontAttributes="Bold" VerticalOptions="Center" BackgroundColor="Navy" TextColor="White" Clicked="alert_Clicked" />
             <Button Text="ActionShett" FontSize="Small" FontAttributes="Bold" VerticalOptions="Center" BackgroundColor="Navy" TextColor="White" Clicked="action_Clicked" />
+            <Button Text="Basiccontrol" FontSize="Small" FontAttributes="Bold" VerticalOptions="Center" BackgroundColor="Navy" TextColor="White" Clicked="Switch_Clicked" />
+            <Button Text="TableView" FontSize="Small" FontAttributes="Bold" VerticalOptions="Center" BackgroundColor="Navy" TextColor="White" Clicked="Table_Clicked" />
         </StackLayout>
     </ScrollView>
 </ContentPage>

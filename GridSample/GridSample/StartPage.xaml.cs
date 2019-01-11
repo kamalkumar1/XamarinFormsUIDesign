@@ -68,5 +68,13 @@ namespace GridSample
         {
             DisplayActionSheet("Tittle", "Cancel", "Destriction", "Button1", "Button2", "Button3");
         }
+        async void Switch_Clicked(object sender, System.EventArgs e)
+        {
+            await Navigation.PushAsync(new BasicControl());
+        }
+        async void Table_Clicked(object sender, System.EventArgs e)
+        {
+           // await Navigation.PushAsync(new BasicControl());
+        }
     }
 }
