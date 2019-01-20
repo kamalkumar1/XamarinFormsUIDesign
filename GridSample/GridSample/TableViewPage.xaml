@@ -1,5 +1,24 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="GridSample.TableViewPage">
-    <ContentPage.Content>
-    </ContentPage.Content>
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns:local="clr-namespace:GridSample" xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="GridSample.TableViewPage">
+    <TableView Intent="Form">
+        <TableView.Root>
+            <TableSection Title="Basic">
+                <TextCell Text="Name" Detail="Sanjay" />
+                <EntryCell Label="Title" Placeholder="(eg Shooping)" />
+                <SwitchCell Text="Notifications" On="true" />
+            </TableSection>
+            <TableSection Title="Reuseable CustomCell">
+                <local:DateCell Label="Start" />
+                <local:DateCell Label="End" />
+            </TableSection>
+            <TableSection Title="Local CustomCell">
+                <ViewCell>
+                    <StackLayout Orientation="Horizontal" Padding="13,5,10,5">
+                      <Label Text="FirstName" VerticalOptions="Center"/>
+                       <Entry Placeholder="EnterFirstName" HorizontalOptions="EndAndExpand"/>
+                    </StackLayout>
+                </ViewCell>
+            </TableSection>
+        </TableView.Root>
+    </TableView>
 </ContentPage>

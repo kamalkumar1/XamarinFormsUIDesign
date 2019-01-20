@@ -14,13 +14,14 @@
             <Button Text="Custom Group List" FontSize="Small" FontAttributes="Bold" BackgroundColor="Navy" VerticalOptions="Center" TextColor="White" Clicked="CustomList_Group_Clicked" />
             <Button Text="Search Bar List With Pull To Refresh" FontAttributes="Bold" FontSize="Small" BackgroundColor="Navy" VerticalOptions="Center" TextColor="White" Clicked="CustomListsSearch_Clicked" />
             <Button Text="Modal PopUp" FontSize="Small" FontAttributes="Bold" BackgroundColor="Navy" VerticalOptions="Center" TextColor="White" Clicked="Modal_Clicked" />
-            <Button Text="Master Detail" FontSize="Small" FontAttributes="Bold" BackgroundColor="Navy" VerticalOptions="Center" TextColor="White" Clicked="Master_Clicked" />
+            <Button Text="Master Detail(Side Menu)" FontSize="Small" FontAttributes="Bold" BackgroundColor="Navy" VerticalOptions="Center" TextColor="White" Clicked="Master_Clicked" />
             <Button Text="TabBar" FontSize="Small" FontAttributes="Bold" BackgroundColor="Navy" VerticalOptions="Center" TextColor="White" Clicked="Tab_Clicked" />
             <Button Text="CarouselPage" FontSize="Small" FontAttributes="Bold" BackgroundColor="Navy" VerticalOptions="Center" TextColor="White" Clicked="Car_Clicked" />
             <Button Text="Alert" FontSize="Small" FontAttributes="Bold" VerticalOptions="Center" BackgroundColor="Navy" TextColor="White" Clicked="alert_Clicked" />
             <Button Text="ActionShett" FontSize="Small" FontAttributes="Bold" VerticalOptions="Center" BackgroundColor="Navy" TextColor="White" Clicked="action_Clicked" />
             <Button Text="Basiccontrol" FontSize="Small" FontAttributes="Bold" VerticalOptions="Center" BackgroundColor="Navy" TextColor="White" Clicked="Switch_Clicked" />
             <Button Text="TableView" FontSize="Small" FontAttributes="Bold" VerticalOptions="Center" BackgroundColor="Navy" TextColor="White" Clicked="Table_Clicked" />
+            <Button Text="Application properties(Eg Nsuserdefault)" FontSize="Small" FontAttributes="Bold" VerticalOptions="Center" BackgroundColor="Navy" TextColor="White" Clicked="App_Clicked" />
         </StackLayout>
     </ScrollView>
 </ContentPage>

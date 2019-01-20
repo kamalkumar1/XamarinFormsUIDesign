@@ -74,7 +74,11 @@ namespace GridSample
         }
         async void Table_Clicked(object sender, System.EventArgs e)
         {
-           // await Navigation.PushAsync(new BasicControl());
+            await Navigation.PushAsync(new TableViewPage());
+        }
+        async void App_Clicked(object sender, System.EventArgs e)
+        {
+            await Navigation.PushAsync(new AppPropertiesPage());
         }
     }
 }
