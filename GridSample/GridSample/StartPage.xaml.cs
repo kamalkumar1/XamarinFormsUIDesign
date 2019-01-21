@@ -80,5 +80,9 @@ namespace GridSample
         {
             await Navigation.PushAsync(new AppPropertiesPage());
         }
+        async void Sql_Clicked(object sender, System.EventArgs e)
+        {
+            await Navigation.PushAsync(new SqlDBPage());
+        }
     }
 }

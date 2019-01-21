@@ -22,6 +22,7 @@
             <Button Text="Basiccontrol" FontSize="Small" FontAttributes="Bold" VerticalOptions="Center" BackgroundColor="Navy" TextColor="White" Clicked="Switch_Clicked" />
             <Button Text="TableView" FontSize="Small" FontAttributes="Bold" VerticalOptions="Center" BackgroundColor="Navy" TextColor="White" Clicked="Table_Clicked" />
             <Button Text="Application properties(Eg Nsuserdefault)" FontSize="Small" FontAttributes="Bold" VerticalOptions="Center" BackgroundColor="Navy" TextColor="White" Clicked="App_Clicked" />
+             <Button Text="SQLLite" FontSize="Small" FontAttributes="Bold" VerticalOptions="Center" BackgroundColor="Navy" TextColor="White" Clicked="Sql_Clicked" />
         </StackLayout>
     </ScrollView>
 </ContentPage>

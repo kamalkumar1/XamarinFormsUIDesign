@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-
+using SQLite;
 using Xamarin.Forms;
 
 namespace GridSample
@@ -10,6 +10,7 @@ namespace GridSample
         public TableViewPage()
         {
             InitializeComponent();
+           // var conn = DependencyService.Get<i>
         }
     }
 }

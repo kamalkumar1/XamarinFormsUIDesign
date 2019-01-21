@@ -92,6 +92,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)SqlDBPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="$(MSBuildThisFileDirectory)App.xaml.cs">
@@ -163,11 +167,16 @@
     <Compile Include="$(MSBuildThisFileDirectory)AppPropertiesPage.xaml.cs">
       <DependentUpon>AppPropertiesPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Presistence \ISQLiteDb.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)SqlDBPage.xaml.cs">
+      <DependentUpon>SqlDBPage.xaml</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="$(MSBuildThisFileDirectory)MarkupExtensions\" />
     <Folder Include="$(MSBuildThisFileDirectory)Images\" />
     <Folder Include="$(MSBuildThisFileDirectory)Model\" />
     <Folder Include="$(MSBuildThisFileDirectory)CustomCell\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Presistence \" />
   </ItemGroup>
 </Project>
