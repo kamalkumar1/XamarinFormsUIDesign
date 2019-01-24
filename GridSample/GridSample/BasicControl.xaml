@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage Padding="10" xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="GridSample.BasicControl">
+  <ScrollView>
+    <StackLayout BackgroundColor="Transparent" Spacing="10" Orientation="Vertical" 
+                VerticalOptions="Start" HorizontalOptions="Center" Padding="10">
+         <Switch x:Name="sw" IsToggled="true" Toggled="Switch_Toggled" HorizontalOptions="Center"/>
+         <Label Text="SwitchStatus:" x:Name="lblsw" />
+         <Slider Maximum="100"  Minimum="1" x:Name="xslider" ValueChanged="Slider_ValueChanged" />
+         <Label  x:Name="lblsl"  />
+         <Stepper x:Name="step" Increment="5" ValueChanged="Step_ValueChanged"/>
+         <Label  x:Name="lblstep"  />
+         <Entry Keyboard="Url" Placeholder="UrlType"/>
+            <Entry Keyboard="Text" Placeholder="TextType"/>
+            <Entry Keyboard="Telephone" Placeholder="TextTelephone" />
+            <Entry Keyboard="Numeric" Placeholder="TextNumeric"/>
+            <Entry Keyboard="Email" Placeholder="TextEmail"/>
+            <Entry Keyboard="Chat" Placeholder="TextChat"/>
+            <Editor Keyboard="Text" Placeholder="MultiLineTexview" BackgroundColor="Silver" />
+            <Picker Title="Data Picker" x:Name="xPicker"/>
+            <DatePicker/>
+            <TimePicker/>
+        </StackLayout>
+    </ScrollView>    
+
+</ContentPage>

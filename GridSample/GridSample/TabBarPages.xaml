@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TabbedPage
+    xmlns:local="clr-namespace:GridSample"
+    xmlns="http://xamarin.com/schemas/2014/forms" 
+            xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            x:Class="GridSample.TabBarPages">
+     <local:SampleLogin Title="Login" Icon="baseline"/>
+     <local:MainPage Title="DialPad" Icon="baseline"/>
+   <!-- <NavigationPage>
+        <x:Arguments>-->
+           <!-- <local:SampleLogin Title="Login" Icon="baseline"/>
+            </x:Arguments>-->
+   <!-- </NavigationPage>
+    <NavigationPage>-->
+       <!-- <x:Arguments>
+            <local:MainPage Title="DialPad" Icon="baseline"/>-->
+          <!--  </x:Arguments>
+    </NavigationPage>-->
+</TabbedPage>

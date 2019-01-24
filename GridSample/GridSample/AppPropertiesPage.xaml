@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="GridSample.AppPropertiesPage">
+     <TableView Intent="Data">
+        <TableView.Root>
+            <TableSection Title="Basic">
+                <EntryCell x:Name="title" Label="Title" Placeholder="(eg Shooping)"  Completed="OnChanged"/>
+                <SwitchCell x:Name="notificationenabled" Text="Notifications" On="true" OnChanged="OnChanged" />
+            </TableSection>
+        </TableView.Root>
+    </TableView>
+</ContentPage>
