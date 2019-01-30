@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<pages:PopupPage x:Class="GridSample.PopPage"
+                 xmlns="http://xamarin.com/schemas/2014/forms"
+                 xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                
+                 xmlns:pages="clr-namespace:Rg.Plugins.Popup.Pages;assembly=Rg.Plugins.Popup">
+
+    <!--  You can set an animation in the xaml file or in the csharp code behind  -->
+    <!--  You can use any elements here which are extended from Xamarin.Forms.View  -->
+    <StackLayout Spacing="30" Margin="020"
+                 Padding="20"
+                 BackgroundColor="White"
+                 HorizontalOptions="FillAndExpand"
+                 VerticalOptions="Center">
+        <StackLayout Spacing="32">
+            <Label  FontAttributes="Bold" Text="Save Data To Sql Db" XAlign="Center" />
+            <Entry x:Name="txtReceipe" FontSize="20" HorizontalTextAlignment="Center" Placeholder="Enter Receipe Name"
+                    />
+        </StackLayout>
+       
+        <Button x:Name="add" BackgroundColor="DodgerBlue"
+                FontAttributes="Bold"
+                FontSize="20"
+                Text="Add"
+                TextColor="White" Clicked="Handle_Clicked" />
+          <Button x:Name="update"  IsVisible="false" BackgroundColor="DodgerBlue"
+                FontAttributes="Bold"
+                FontSize="20"
+                Text="Update"
+                TextColor="White" Clicked="Handle_Clicked_1" />
+        
+    </StackLayout>
+</pages:PopupPage>
