@@ -13,9 +13,12 @@
 namespace GridSample {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("/Users/kamalkumar/Documents/GitOffice/XamarinFormsUIDesign/GridSample/GridSample/" +
-        "SelectionList.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("/Users/kamal/Documents/Git/XamarinFormsUIDesign/GridSample/GridSample/SelectionLi" +
+        "st.xaml")]
     public partial class SelectionList : global::Xamarin.Forms.ContentPage {
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.SearchBar search;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private global::Xamarin.Forms.ListView listView;
@@ -23,6 +26,7 @@ namespace GridSample {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private void InitializeComponent() {
             global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(SelectionList));
+            search = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.SearchBar>(this, "search");
             listView = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.ListView>(this, "listView");
         }
     }

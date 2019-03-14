@@ -6,15 +6,17 @@ using System;
 
 namespace GridSample
 {
-    public delegate void MyDelegate(Recipe recipe);  
+    public delegate void MyDelegate(Recipe recipe); 
+    public delegate void UpdateDelegate(Recipe recipe); 
 
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class PopPage 
     {
         Recipe m_receipe;
-        public delegate void OnSucessSelection(Recipe rec);
-        public OnSucessSelection Handler_OnSucessSelection { private get; set; }
+       // public delegate void OnSucessSelection(Recipe rec);
+       // public OnSucessSelection Handler_OnSucessSelection { private get; set; }
         public event MyDelegate AddClicked;
+        public event UpdateDelegate UpdateClciked;
       
         public PopPage(int buttonValue, Recipe receipes = null)
         {
@@ -40,24 +42,23 @@ namespace GridSample
             var sqlconnection = DependencyService.Get<ISQLiteDb>().GetConnection();
             sqlconnection.InsertAsync(receipe);
 
-            if (AddClicked != null)
-                AddClicked(receipe);
-           
+            AddClicked?.Invoke(receipe);
+
             PopupNavigation.Instance.PopAsync(true);
         }
 
         void Handle_Clicked_1(object sender, System.EventArgs e)
         {
-            getInformation();
+            getInformation();        
             PopupNavigation.Instance.PopAsync(true);
-           
-
+   
         }
 
         void getInformation(){
             var receipe = new Recipe { Id= m_receipe.Id, Name = txtReceipe.Text };
             var sqlconnection = DependencyService.Get<ISQLiteDb>().GetConnection();
             sqlconnection.UpdateAsync(receipe);
+            UpdateClciked?.Invoke(receipe);
           
         }
     }

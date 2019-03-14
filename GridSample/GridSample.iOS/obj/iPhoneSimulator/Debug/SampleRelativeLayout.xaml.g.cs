@@ -13,8 +13,8 @@
 namespace GridSample {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("/Users/kamalkumar/Documents/GitOffice/XamarinFormsUIDesign/GridSample/GridSample/" +
-        "SampleRelativeLayout.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("/Users/kamal/Documents/Git/XamarinFormsUIDesign/GridSample/GridSample/SampleRelat" +
+        "iveLayout.xaml")]
     public partial class SampleRelativeLayout : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]

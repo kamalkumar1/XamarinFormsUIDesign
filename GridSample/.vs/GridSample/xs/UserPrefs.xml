@@ -1,19 +1,18 @@
 ﻿<Properties StartupConfiguration="{602CD5C3-5397-4420-B042-3364F49674A9}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="GridSample/SelectionList.xaml.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="GridSample/PopPage.xaml.cs">
     <Files>
-      <File FileName="GridSample/SelectionList.xaml.cs" Line="48" Column="39" />
-      <File FileName="GridSample/SelectionList.xaml" Line="13" Column="28" />
-      <File FileName="GridSample/BasicList2.xaml" Line="11" Column="15" />
-      <File FileName="GridSample.iOS/Main.cs" Line="17" Column="1" />
+      <File FileName="GridSample/SqlDBPage.xaml.cs" Line="97" Column="33" />
+      <File FileName="GridSample/PopPage.xaml.cs" Line="60" Column="12" />
+      <File FileName="GridSample/SqlDBPage.xaml" Line="6" Column="169" />
     </Files>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.GridSample.Android AndroidDesignerPreferredTheme="Theme.DeviceDefault.NoActionBar.Fullscreen" PreferredExecutionTarget="Android.ce0317138029d0c60c" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.ItemProperties.GridSample FirstBuild="True" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.GridSample.iOS automaticSigning="False" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.8594f13741ae8fbe16a357e855825be49d268aa6" />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhone" />
+  <MonoDevelop.Ide.ItemProperties.GridSample.Android PreferredExecutionTarget="Android.ce0317138029d0c60c" AndroidDesignerPreferredTheme="Theme.DeviceDefault.NoActionBar.Fullscreen" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.GridSample.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.80349CEE-3A39-48B7-ADE3-FA95C1C0F3E8" automaticSigning="False" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
 </Properties>

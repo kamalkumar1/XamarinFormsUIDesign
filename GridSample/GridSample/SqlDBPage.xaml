@@ -3,7 +3,7 @@
     <StackLayout Orientation="Vertical">
         <StackLayout Orientation="Horizontal" BackgroundColor="Red" Spacing="5" Padding="5">
             <Button  x:Name ="add" Text="Add" TextColor="White" FontAttributes="Bold" HorizontalOptions="FillAndExpand" BackgroundColor="Blue" Clicked="Add_Clicked"/>
-             <Button  x:Name ="update"  IsVisible="false" Text="Update" TextColor="White" FontAttributes="Bold" HorizontalOptions="FillAndExpand" BackgroundColor="Blue" Clicked="Update_Clicked" />
+             <Button  x:Name ="update"  IsVisible="false" Text="Update" TextColor="White" FontAttributes="Bold" HorizontalOptions="FillAndExpand" BackgroundColor="Blue"/>
              <Button Text="Click To Refesh" TextColor="White" FontAttributes="Bold" HorizontalOptions="FillAndExpand" BackgroundColor="Blue" Clicked="Handle_Clicked" />
         </StackLayout>
       <ListView ItemSelected="Handle_ItemSelected" x:Name="sqlList">
