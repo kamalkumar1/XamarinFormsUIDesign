@@ -2,9 +2,16 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="GridSample.SqlDBPage">
     <StackLayout Orientation="Vertical">
         <StackLayout Orientation="Horizontal" BackgroundColor="Red" Spacing="5" Padding="5">
-            <Button Text="Add" TextColor="White" FontAttributes="Bold" HorizontalOptions="FillAndExpand" BackgroundColor="Blue" Clicked="Add_Clicked"/>
-             <Button Text="Update" TextColor="White" FontAttributes="Bold" HorizontalOptions="FillAndExpand" BackgroundColor="Blue" Clicked="Update_Clicked" />
+            <Button  x:Name ="add" Text="Add" TextColor="White" FontAttributes="Bold" HorizontalOptions="FillAndExpand" BackgroundColor="Blue" Clicked="Add_Clicked"/>
+             <Button  x:Name ="update"  IsVisible="false" Text="Update" TextColor="White" FontAttributes="Bold" HorizontalOptions="FillAndExpand" BackgroundColor="Blue"/>
+             <Button Text="Click To Refesh" TextColor="White" FontAttributes="Bold" HorizontalOptions="FillAndExpand" BackgroundColor="Blue" Clicked="Handle_Clicked" />
         </StackLayout>
-        <ListView></ListView>
+      <ListView ItemSelected="Handle_ItemSelected" x:Name="sqlList">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <TextCell Text="{Binding Name}" />
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
     </StackLayout>
 </ContentPage>
